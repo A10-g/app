@@ -5,7 +5,7 @@ import './User.css';
 
 const CreateUser = () => {
     const navigate = useNavigate();
-    const createUserApi = "http://localhost:3000/users"; // Ensure this is the correct endpoint
+    const createUserApi = "http://localhost:3000/users";
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [user, setUser] = useState({
